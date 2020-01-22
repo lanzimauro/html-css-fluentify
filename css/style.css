@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .container-fullwidht {
     background-color: #0D325A;
 }
@@ -18,7 +24,7 @@
 
 .container {
     max-width: 1200px;
-    width: 80vw;
+    width: 85%;
     height: 220px;
     background-color: lightblue;
     margin: 0 auto;
@@ -26,16 +32,57 @@
 
 .fascia {
     height: 70px;
-    width: 80vw;
+    width: 85%;
     max-width: 1200px;
     background-color: white;
     margin: 0 auto;
 }
 
 .corpo {
-    width: 80vw;
+    width: 85%;
     max-width: 1200px;
     height: 330px;
     background-color: lightgreen;
     margin: 0 auto;
+}
+header {
+    background-color: red;
+    text-align: center;
+    line-height: 30px;
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    float: left;
+    margin: 10px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.pulsanti {
+    float: left;
+}
+
+.tutor {
+    float: left;
+}
+
+.login {
+    float: left;
+}
+
+.piano {
+    float: left;
 }
