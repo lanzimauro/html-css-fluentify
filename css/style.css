@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fullwidht {
+    height: 220px;
+    background-color: #0D325A;
+}
+
+.fascia-grigia {
+    height: 70px;
+    background-color: lightgray;
+}
+
+.container-bianco {
+    height: 330px;
+    background-color: green;
+}
